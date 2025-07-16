@@ -1,76 +1,64 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  <a href="https://vanshshah.vercel.app/" target="_blank">vanshshah.vercel.app</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
 
 <br/>
 
-<center>
+<p align="center">
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+![GitHub Repo stars](https://img.shields.io/github/stars/Vanshshah2325/VanshShah?color=blue&logo=github&style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Vanshshah2325/VanshShah?color=blue&logo=github&style=for-the-badge)
 
-</center>
+</p>
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/Vanshshah2325/VanshShah/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
+    <a href="https://github.com/Vanshshah2325/VanshShah/issues">Request Feature</a>
 </h3>
 
-## TL;DR
+---
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+## 📌 TL;DR
 
-## Built With
+You can fork this repo to create your own portfolio. Please give credit by linking back to [Vanshshah2325](https://github.com/Vanshshah2325). Thanks!
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+---
 
-This project was built using these technologies.
+## 🛠 Built With
+
+This is my personal portfolio website — [vanshshah.vercel.app](https://vanshshah.vercel.app) — which highlights my projects, resume, and technical skills.
+
+**Technologies Used:**
 
 - React.js
 - Node.js
 - Express.js
 - CSS3
-- VsCode
+- VS Code
 - Vercel
 
-## Features
+---
 
-**📖 Multi-Page Layout**
+## ✨ Features
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+- 📖 Multi-Page Layout
+- 🎨 Styled with React and CSS (easy to customize)
+- 📱 Fully Responsive Design
+- ⚡ Fast and optimized for performance
 
-**📱 Fully Responsive**
+---
 
-## Getting Started
+## 🚀 Getting Started
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+To run this project locally:
 
-## 🛠 Installation and Setup Instructions
+### 1️⃣ Clone the repo
 
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+```bash
+git clone https://github.com/Vanshshah2325/VanshShah.git
