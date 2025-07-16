@@ -13,32 +13,42 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+        <div className="avatar-mobile-only">
+          <Tilt>
+            <img src={myImg} className="img-fluid" alt="avatar" />
+            <h1 className="heading-name">
+              <strong className="main-name"> VANSH SHAH</strong>
+            </h1>
+          </Tilt>
+
+        </div>
+
         <Row>
           <div className="d-flex  home-about-description">
             <div>
               <Col md={11} className="home-about-description">
-              <h1 style={{ fontSize: "2.6em" }}>
-                LET ME <span className="purple"> INTRODUCE </span> MYSELF
-              </h1>
-              <p className="home-about-body">
-                I’m Vansh Shah, a passionate <b className="purple">Full Stack Developer</b> who loves creating clean and functional web applications.
-                <br />
-                <br />
-                I'm skilled in
-                <i>
-                  <b className="purple"> React.js, Next.js, Node.js, Express.js, and MongoDB</b>
-                </i>
-                <br />
-                <br />
-                I enjoy working on &nbsp;
-                <i>
-                  <b className="purple">Web Technologies</b> and building scalable & impactful{" "}
-                  <b className="purple">Products</b>.
-                </i>
-                <br />
-                <br />
-                I also love to build with the <b className="purple">MERN Stack</b> and am always learning and improving my craft with modern libraries and frameworks.
-              </p>
+                <h1 style={{ fontSize: "2.6em" }}>
+                  LET ME <span className="purple"> INTRODUCE </span> MYSELF
+                </h1>
+                <p className="home-about-body">
+                  I’m Vansh Shah, a passionate <b className="purple">Full Stack Developer</b> who loves creating clean and functional web applications.
+                  <br />
+                  <br />
+                  I'm skilled in
+                  <i>
+                    <b className="purple"> React.js, Next.js, Node.js, Express.js, and MongoDB</b>
+                  </i>
+                  <br />
+                  <br />
+                  I enjoy working on &nbsp;
+                  <i>
+                    <b className="purple">Web Technologies</b> and building scalable & impactful{" "}
+                    <b className="purple">Products</b>.
+                  </i>
+                  <br />
+                  <br />
+                  I also love to build with the <b className="purple">MERN Stack</b> and am always learning and improving my craft with modern libraries and frameworks.
+                </p>
               </Col>
             </div>
             <div className="myAvtar">

@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import weatherapp from "../../Assets/Projects/weatherapp.png";
+import Tictactoe from "../../Assets/Projects/Tictactoe.png";
+import urlshortner from "../../Assets/Projects/urlshortnerwhite.png";
+import offerhub from "../../Assets/Projects/offerhub.png";
+import xerox from "../../Assets/Projects/xerox.png";
 
 function Projects() {
   return (
@@ -20,74 +19,65 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        {/* <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={xerox}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Vss Printers"
+              description="A clean and responsive e-commerce website for a Xerox and printing service business, built using HTML and CSS. The site showcases products such as xerox machines, printers, and accessories. Designed with a modern layout, it features intuitive navigation, product listings, and a professional look suitable for commercial use."
+              ghLink="https://github.com/Vanshshah2325/E-commerece-site-XEROX-"
+            // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Tictactoe}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Tic-Tac-Toe"
+              description="A classic Tic-Tac-Toe game built using HTML, CSS, and JavaScript. Designed with a clean and responsive UI, this interactive game allows two players to play in turns, detects winning combinations, and displays the result instantly. Perfect for learning game logic and DOM manipulation with pure JavaScript."
+              ghLink="https://github.com/Vanshshah2325/TIC-TOC-TOE"
+            // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={urlshortner}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Url Shortner"
+              description="A simple and efficient URL Shortener built using Node.js, Express.js, MongoDB, and EJS. This project allows users to generate shortened URLs using unique IDs, manage them via a clean UI, and redirect users seamlessly to the original links. It uses nanoid and shortid for generating short codes, and stores all data securely in MongoDB using Mongoose."
+              ghLink="https://github.com/Vanshshah2325/Short-URL"
+            // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={weatherapp}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Weather App"
+              description="A weather application built with a frontend using HTML and CSS, and a backend powered by Node.js and Express. This app allows users to enter a city name and fetch real-time weather information by integrating a weather API. The backend handles API requests and serves the weather data dynamically to the user interface."
+              ghLink="https://github.com/Vanshshah2325/Weather_App"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={offerhub}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Offer-Hub"
+              description="OfferHub is a modern web platform for discovering and managing deals across categories like restaurants, cafes, fashion, and gaming. Built using React (with Vite), Express.js, and MySQL, it features user authentication, category-based dashboards, JWT-based session handling, dynamic charting with Recharts, PDF export with jsPDF, and a sleek UI powered by Bootstrap and Framer Motion. Ideal for users to explore local offers and for businesses to manage their listings efficiently."
+              ghLink="https://github.com/Vanshshah2325/OfferHub"
+            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
-        </Row> */}
+
+        </Row>
       </Container>
     </Container>
   );
